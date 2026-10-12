@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="hi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ff5f8f" />
+    <title>Khushi ke naam 💌</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="sky" aria-hidden="true"></div>
+    <div class="floating" aria-hidden="true">
+      <span>❤</span><span>🌹</span><span>♥</span><span>🌸</span><span>❤</span><span>🌹</span><span>♥</span>
+    </div>
+
+    <main>
+      <section class="intro card" id="intro">
+        <div class="sparkle">✦</div>
+        <p class="eyebrow">KHUSHI KE LIYE EK CHHOTA SA SURPRISE</p>
+        <h1>Ek baat dil se<br /><em>kehni thi...</em></h1>
+        <p class="subtitle">Isme sirf tumhare liye kuch pyaari si baatein hain ✨</p>
+        <button class="open-button" id="showEnvelope" type="button">Surprise kholo <span>💌</span></button>
+        <p class="hint">Tap karna, Khushi</p>
+      </section>
+
+      <section class="envelope-stage hidden" id="envelopeStage" aria-live="polite">
+        <p class="eyebrow">EK KHAAS KHAT</p>
+        <button class="envelope" id="openLetter" type="button" aria-label="Love letter kholiye">
+          <span class="envelope-back"></span>
+          <span class="letter-peek"><i>For Khushi</i><b>❤</b></span>
+          <span class="envelope-front"></span>
+          <span class="flap"></span>
+          <span class="seal">❤</span>
+        </button>
+        <p class="tap-note">Lifafa kholne ke liye tap karo</p>
+      </section>
+
+      <article class="letter card hidden" id="letter">
+        <span class="corner-flower flower-one">✿</span><span class="corner-flower flower-two">✿</span>
+        <p class="letter-date">Sirf tumhare liye</p>
+        <h2>Dear Khushi,</h2>
+        <div class="letter-text">
+          <p>Tumhara naam hi itna pyaara hai ki use soch kar bhi chehre par muskaan aa jaati hai.</p>
+          <p>Shayad main har baar apni baat perfect tareeke se nahi keh pata, lekin itna zaroor jaanta hoon ki tum meri zindagi ki woh khoobsurat si feeling ho jise main kabhi khona nahi chahta.</p>
+          <p>Tumhari hasi, tumhari baatein, aur tumhara saath—sab kuch dil ko bahut special lagta hai. Bas aise hi hamesha khush rehna, kyunki tumhari khushi mein hi meri khushi hai.</p>
+          <p class="small-line">Aaj aur har din, tum mere liye bahut khaas ho. 🌹</p>
+        </div>
+        <p class="signature">Aapse pyar karne wala,<br />aapka apna <strong>Sudhanshu.</strong></p>
+        <div class="heart-line" aria-hidden="true">♡ &nbsp; ♥ &nbsp; ♡</div>
+        <button class="again-button" id="readAgain" type="button">Phir se padho ↻</button>
+      </article>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
